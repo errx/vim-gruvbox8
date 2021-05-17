@@ -56,7 +56,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi Normal guifg=#ebdbb2 guibg=#1d2021 gui=NONE cterm=NONE
       hi CursorLineNr guifg=#fabd2f guibg=#3c3836 gui=NONE cterm=NONE
       hi FoldColumn guifg=#928374 guibg=#3c3836 gui=NONE cterm=NONE
-      hi SignColumn guifg=#ebdbb2 guibg=#3c3836 gui=NONE cterm=NONE
+      hi SignColumn guifg=#ebdbb2 guibg=#1d2021 gui=NONE cterm=NONE
       hi VertSplit guifg=#665c54 guibg=#1d2021 gui=NONE cterm=NONE
     endif
     hi ColorColumn guifg=NONE guibg=#3c3836 gui=NONE cterm=NONE
@@ -102,7 +102,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi Title guifg=#b8bb26 guibg=NONE gui=bold cterm=bold
     hi WarningMsg guifg=#fb4934 guibg=NONE gui=bold cterm=bold
     hi Boolean guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
-    hi Character guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
+    hi Character guifg=#d3869b guibg=#3C3F40 gui=NONE cterm=NONE
     hi Conditional guifg=#fb4934 guibg=NONE gui=NONE cterm=NONE
     hi Constant guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
     hi Define guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
@@ -128,7 +128,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi Statement guifg=#fb4934 guibg=NONE gui=NONE cterm=NONE
     hi StorageClass guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
     hi Special guifg=#fe8019 guibg=NONE gui=italic cterm=italic
-    hi String guifg=#b8bb26 guibg=NONE gui=italic cterm=italic
+    hi String guifg=#b8bb26 guibg=#3C3F40 gui=italic cterm=italic
     hi Structure guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
     hi Todo guifg=fg guibg=#1d2021 gui=bold,italic cterm=bold,italic
     hi Type guifg=#fabd2f guibg=NONE gui=NONE cterm=NONE
